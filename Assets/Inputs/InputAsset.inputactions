@@ -1,0 +1,77 @@
+{
+    "version": 1,
+    "name": "InputAsset",
+    "maps": [
+        {
+            "name": "Movement",
+            "id": "1281bf2a-6117-409e-a962-251199442a2f",
+            "actions": [
+                {
+                    "name": "Direction",
+                    "type": "PassThrough",
+                    "id": "09f580ea-9411-40be-8562-d96f6681aabe",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SpeedUp",
+                    "type": "Button",
+                    "id": "8e8b3564-aa4d-4b1b-9206-7f53a6cb35b6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "e72ccc5a-8379-4880-b05d-06cb4805bd8e",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Direction",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "eb8a4ab9-1976-4699-a3f8-09d3267b2315",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Direction",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "8d903ea4-0122-4138-9b13-5b2802a4f873",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Direction",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "40367e2b-3ebd-43bd-8b0e-8943f3d41bf5",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpeedUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
