@@ -5,20 +5,24 @@ public class PlayerSpawner : MonoBehaviour
     [SerializeField] private GameObject spawningArea;
 
     [SerializeField] private GameObject player;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
-        SignalBus.Instance.OnPlayerRespawned.AddListener(() =>
+        SignalBus.Instance.OnPlayerNeedToRespawn.AddListener(() =>
         {
-            Vector3 spawnPosition = new Vector3(
-                Random.Range(
-                    spawningArea.transform.position.x - spawningArea.transform.localScale.x / 2,
-                    spawningArea.transform.position.x + spawningArea.transform.localScale.x / 2),
-                Random.Range(
-                    spawningArea.transform.position.y - spawningArea.transform.localScale.y / 2,
-                    spawningArea.transform.position.y + spawningArea.transform.localScale.y / 2),
-                0);
-            Instantiate(player, spawnPosition, Quaternion.identity);
+            var points = spawningArea.GetComponentsInChildren<Transform>();
+            if (points.Length < 2)
+            {
+                Debug.LogError("Spawning area must have at least two child points to define spawn range.");
+                return; 
+            }
+
+            var spawnPosition = new Vector3(Random.Range(points[0].transform.position.x, points[1].transform.position.x), spawningArea.transform.position.y, 0);
+
+            player.transform.position = spawnPosition;
+            player.SetActive(true);
+
+            SignalBus.Instance.OnPlayerRespawned.Invoke();
         });
 
     }

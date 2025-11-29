@@ -3,6 +3,7 @@ using UnityEngine.Events;
 
 public class SignalBus : MonoBehaviour
 {
+    public UnityEvent OnPlayerNeedToRespawn { get; private set; } = new();
     public UnityEvent OnPlayerRespawned { get; private set; } = new();
     public UnityEvent OnGameOver { get; private set; } = new();
     public UnityEvent OnInvisibility { get; private set; } = new();
