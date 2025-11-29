@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 788db2d00901b4e799db6a65c6734414
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8696881179863732548
+    second: xrc_logo_0
+  - first:
+      213: -3183013306700338171
+    second: xrc_logo_1
+  - first:
+      213: -7310712317167418839
+    second: xrc_logo_2
+  - first:
+      213: -7983483065416204624
+    second: xrc_logo_3
+  - first:
+      213: -6964272765000171257
+    second: xrc_logo_4
+  - first:
+      213: 5584288819641798838
+    second: xrc_logo_5
+  - first:
+      213: 2911608214620549777
+    second: xrc_logo_6
+  - first:
+      213: -8838574560082656960
+    second: xrc_logo_7
+  - first:
+      213: -8893595728004493379
+    second: xrc_logo_8
+  - first:
+      213: 8641812955274423654
+    second: xrc_logo_9
+  - first:
+      213: 6885402716923596802
+    second: xrc_logo_10
+  - first:
+      213: -910696710104482976
+    second: xrc_logo_11
+  - first:
+      213: 5227254217650256071
+    second: xrc_logo_12
+  - first:
+      213: -8100448089054975191
+    second: xrc_logo_13
+  - first:
+      213: -3381565320867706285
+    second: xrc_logo_14
+  - first:
+      213: 52667544737804267
+    second: xrc_logo_15
+  - first:
+      213: -6951534530413187665
+    second: xrc_logo_16
+  - first:
+      213: 1307859541956055791
+    second: xrc_logo_17
+  - first:
+      213: 6231419548982962399
+    second: xrc_logo_18
+  - first:
+      213: 7813104225704005381
+    second: xrc_logo_19
+  - first:
+      213: -6880404198235186906
+    second: xrc_logo_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: xrc_logo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 660
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe217c15a87e4780800000000000000
+      internalID: -8696881179863732548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xrc_logo_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 0
+        width: 49
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ce8ca034aa3d3d0800000000000000
+      internalID: -3183013306700338171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xrc_logo_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 72
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 922c920a1e12b8a90800000000000000
+      internalID: -7310712317167418839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xrc_logo_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 0
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be35874378f43190800000000000000
+      internalID: -7983483065416204624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xrc_logo_4
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 49
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701cc3b81dee95f90800000000000000
+      internalID: -6964272765000171257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xrc_logo_5
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 49
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b05fe938116f7d40800000000000000
+      internalID: 5584288819641798838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xrc_logo_6
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 49
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192319dae3c186820800000000000000
+      internalID: 2911608214620549777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xrc_logo_7
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 48
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04108713443175580800000000000000
+      internalID: -8838574560082656960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xrc_logo_8
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 48
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf4c504ec9939480800000000000000
+      internalID: -8893595728004493379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xrc_logo_9
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 48
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d2086b813ede770800000000000000
+      internalID: 8641812955274423654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xrc_logo_10
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 48
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2009db56a4ddd8f50800000000000000
+      internalID: 6885402716923596802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xrc_logo_11
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 49
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06bfa10da2e8c53f0800000000000000
+      internalID: -910696710104482976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xrc_logo_12
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 48
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8b4b90400fa8840800000000000000
+      internalID: 5227254217650256071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xrc_logo_13
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 49
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92be26a816d659f80800000000000000
+      internalID: -8100448089054975191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xrc_logo_14
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 79
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a86e8c1444211d0800000000000000
+      internalID: -3381565320867706285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xrc_logo_15
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befe9475adc1bb000800000000000000
+      internalID: 52667544737804267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xrc_logo_16
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 0
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad2cd6ec20378f90800000000000000
+      internalID: -6951534530413187665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xrc_logo_17
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 0
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe25566f253762210800000000000000
+      internalID: 1307859541956055791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xrc_logo_18
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 0
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8ed8770137a7650800000000000000
+      internalID: 6231419548982962399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xrc_logo_19
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 0
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fc03ec5e8bd6c60800000000000000
+      internalID: 7813104225704005381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xrc_logo_20
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 0
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629d51de5d4e380a0800000000000000
+      internalID: -6880404198235186906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 251fdbfb797df42a2a7521284f477055
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      xrc_logo_0: -8696881179863732548
+      xrc_logo_1: -3183013306700338171
+      xrc_logo_10: 6885402716923596802
+      xrc_logo_11: -910696710104482976
+      xrc_logo_12: 5227254217650256071
+      xrc_logo_13: -8100448089054975191
+      xrc_logo_14: -3381565320867706285
+      xrc_logo_15: 52667544737804267
+      xrc_logo_16: -6951534530413187665
+      xrc_logo_17: 1307859541956055791
+      xrc_logo_18: 6231419548982962399
+      xrc_logo_19: 7813104225704005381
+      xrc_logo_2: -7310712317167418839
+      xrc_logo_20: -6880404198235186906
+      xrc_logo_3: -7983483065416204624
+      xrc_logo_4: -6964272765000171257
+      xrc_logo_5: 5584288819641798838
+      xrc_logo_6: 2911608214620549777
+      xrc_logo_7: -8838574560082656960
+      xrc_logo_8: -8893595728004493379
+      xrc_logo_9: 8641812955274423654
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
