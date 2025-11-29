@@ -135,6 +135,22 @@ PrefabInstance:
       propertyPath: m_text
       value: Credits
       objectReference: {fileID: 0}
+    - target: {fileID: 1767928472843266498, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: fe94b4bde2a6c46e49d6123b611d9dd1, type: 2}
+    - target: {fileID: 1767928472843266498, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 6565707550256541174, guid: fe94b4bde2a6c46e49d6123b611d9dd1, type: 2}
+    - target: {fileID: 1767928472843266498, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
+      propertyPath: m_characterSpacing
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767928472843266498, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4677747526887195184, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -352,7 +368,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &131214442
 RectTransform:
   m_ObjectHideFlags: 0
@@ -471,8 +487,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Title: Nightdrop'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fe94b4bde2a6c46e49d6123b611d9dd1, type: 2}
+  m_sharedMaterial: {fileID: 6565707550256541174, guid: fe94b4bde2a6c46e49d6123b611d9dd1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -506,7 +522,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: 8
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -615,8 +631,8 @@ MonoBehaviour:
 
     at the Polish-Japanese Academy of Information Technology'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fe94b4bde2a6c46e49d6123b611d9dd1, type: 2}
+  m_sharedMaterial: {fileID: 6565707550256541174, guid: fe94b4bde2a6c46e49d6123b611d9dd1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -650,7 +666,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: 8
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -794,6 +810,22 @@ PrefabInstance:
     - target: {fileID: 1767928472843266498, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
       propertyPath: m_text
       value: Exit
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767928472843266498, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: fe94b4bde2a6c46e49d6123b611d9dd1, type: 2}
+    - target: {fileID: 1767928472843266498, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 6565707550256541174, guid: fe94b4bde2a6c46e49d6123b611d9dd1, type: 2}
+    - target: {fileID: 1767928472843266498, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
+      propertyPath: m_characterSpacing
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767928472843266498, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4677747526887195184, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1244,8 +1276,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Warsaw, November 2025
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fe94b4bde2a6c46e49d6123b611d9dd1, type: 2}
+  m_sharedMaterial: {fileID: 6565707550256541174, guid: fe94b4bde2a6c46e49d6123b611d9dd1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1279,7 +1311,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: 8
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1307,7 +1339,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -257.7244, y: 153.3746, z: 317.7608, w: -127.64873}
+  m_margin: {x: -257.7244, y: 153.3746, z: 293.07742, w: -127.64873}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1336,6 +1368,22 @@ PrefabInstance:
     - target: {fileID: 1767928472843266498, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
       propertyPath: m_text
       value: Back
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767928472843266498, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: fe94b4bde2a6c46e49d6123b611d9dd1, type: 2}
+    - target: {fileID: 1767928472843266498, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 6565707550256541174, guid: fe94b4bde2a6c46e49d6123b611d9dd1, type: 2}
+    - target: {fileID: 1767928472843266498, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
+      propertyPath: m_characterSpacing
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767928472843266498, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4677747526887195184, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1785,8 +1833,8 @@ MonoBehaviour:
 
     Yahor Shakhovich s26864'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fe94b4bde2a6c46e49d6123b611d9dd1, type: 2}
+  m_sharedMaterial: {fileID: 6565707550256541174, guid: fe94b4bde2a6c46e49d6123b611d9dd1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1820,7 +1868,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: 8
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -2042,6 +2090,22 @@ PrefabInstance:
     - target: {fileID: 1767928472843266498, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
       propertyPath: m_text
       value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767928472843266498, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: fe94b4bde2a6c46e49d6123b611d9dd1, type: 2}
+    - target: {fileID: 1767928472843266498, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 6565707550256541174, guid: fe94b4bde2a6c46e49d6123b611d9dd1, type: 2}
+    - target: {fileID: 1767928472843266498, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
+      propertyPath: m_characterSpacing
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767928472843266498, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4677747526887195184, guid: ff996852782ca4cf29a86fabf6bddd71, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
