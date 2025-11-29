@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8280995093925524793}
   - component: {fileID: 7398973960728834621}
   - component: {fileID: 3885703429649888791}
+  - component: {fileID: 2355370385981903393}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -112,3 +113,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Assets.Scripts.Controllers.InputHandler
   playerInput: {fileID: 7398973960728834621}
+--- !u!114 &2355370385981903393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8726149879703998766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8e5c78d30f49784a899e4f493fce19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Scripts.Controllers.EnemySpawner
+  spawningArea: {fileID: 0}
+  enemy: {fileID: 2924997150978476706, guid: 9027f943058e4114e887126745cc4af8, type: 3}
