@@ -15,15 +15,24 @@ public class PlayerSpawner : MonoBehaviour
             Debug.LogError("Spawning area must have at least two child points to define spawn range.");
         }
 
-        SignalBus.Instance.OnPlayerNeedToRespawn.AddListener(() =>
+        SignalBus.Instance.OnPlayerNeedToRespawn.AddListener(PlayerRespawn);
+    }
+
+    private void PlayerRespawn()
+    {
+        var spawnPosition = new Vector3(Random.Range(spawnPoints[1].transform.position.x, spawnPoints[2].transform.position.x), spawningArea.transform.position.y, 0);
+
+        player.transform.position = spawnPosition;
+        player.SetActive(true);
+
+        SignalBus.Instance.OnPlayerRespawned.Invoke();
+    }
+
+    private void OnDestroy()
+    {
+        if (SignalBus.Instance != null)
         {
-            var spawnPosition = new Vector3(Random.Range(spawnPoints[1].transform.position.x, spawnPoints[2].transform.position.x), spawningArea.transform.position.y, 0);
-
-            player.transform.position = spawnPosition;
-            player.SetActive(true);
-
-            SignalBus.Instance.OnPlayerRespawned.Invoke();
-        });
-
+            SignalBus.Instance.OnPlayerNeedToRespawn.RemoveListener(PlayerRespawn);
+        }
     }
 }

@@ -32,5 +32,10 @@ namespace Assets.Scripts.Controllers
                 yield return new WaitForSeconds(spawnInterval); // Adjust spawn interval as needed
             }
         }
+
+        private void OnDestroy()
+        {
+            StopAllCoroutines();
+        }
     }
 }

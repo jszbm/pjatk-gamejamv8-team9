@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 936580784144982278}
   - component: {fileID: 2882277408991247168}
   - component: {fileID: 2611176375503594884}
+  - component: {fileID: -7601321575050328543}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -181,3 +182,16 @@ MonoBehaviour:
   x_speed: 10
   base_y_speed: 2
   additional_y_speed: 3
+--- !u!114 &-7601321575050328543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4574563906884290745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc483d8595a6f484e904312706f95a80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Scripts.Player.PlayerObject
+  timeForInvisibility: 1
